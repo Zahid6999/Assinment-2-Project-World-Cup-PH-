@@ -5,7 +5,7 @@ body{
     font-family: 'Poppins', sans-serif; 
 }
 /* header section start */
-.container{
+.head-container{
     display: flex;
     width: 1321px;
     height:646px;
@@ -42,6 +42,11 @@ body{
     background-color: #dd7a00;
     border-radius: 5px;
 }
+.live-btn:hover{
+    background-color: #e2c29b;
+    color: #676161;
+    transition: 0.5s;
+}
 .fa-solid{
     padding-left: 7px;
 }
@@ -54,3 +59,129 @@ body{
     background-size: cover;
     margin: 33px 79px 0 24px;
 }
+ /* main section start  */
+ /* section aria */
+.container{
+    width: 1321px;
+    height:646px;
+    margin: 130px auto;
+    display: grid;
+    display: flex;
+   
+}
+
+.btn-aria{
+    width: 312px;
+    height: 312px;
+    background-color: rgb(28, 27, 27); 
+    border-radius: 10px;
+    padding-top: 5px;
+
+}
+.btn{
+    display: block;
+    width: 252px;
+    height: 64px;
+    border-radius: 10px;
+    margin: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+#color{
+    background-color: red;
+    color: #FFFFFF;
+}
+
+/* <!-- transfer-blog aria -->
+--------------------------------- */
+.transfer-aria{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-left: 23px;
+}
+.transfer{
+    width: 312px;
+   height: 375px;
+   background-color: #e7f3e6;
+   border-radius: 10px;
+}
+.transfer-banner img{
+    width: 312px;
+    height: 175px;
+    border-radius: 10px 10px 0px 0px;
+}
+.transfer-detils{
+    padding: 20px;
+}
+.transfer-btn{
+    width: 100px;
+    height: 32px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 15px;
+    border: 2px solid #161616;
+    background-color: #eef5ed; 
+}
+.transfer-btn:hover{
+    background-color: tomato;
+    color: #e7f3e6;
+    transition: 0.5s;
+}
+.transtfer-title{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    
+}
+#time{
+   
+    display: flex;
+    gap: 30px;
+
+}
+.icon-1, .icon-2{
+    margin-top: -30px;
+}
+
+
+/* footer section----------------
+--------------------- */
+.footer-section{
+    width:100%;
+    height: 444px; 
+    margin-top: 130px;
+    background: #161616;
+    border-radius: 10px;
+}
+.footer-h1{
+    color: white;
+    text-align: center;
+    padding-top: 130px;
+    padding-bottom: 100px;
+    font-weight: 600;
+font-size: 40px;
+}
+hr{
+    width: 70%;
+    margin-bottom: 50px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+.items li{
+ list-style: none;
+}
+
+.items li a{
+    text-decoration: none;
+    color: wheat;
+    margin-left: 40px;
+    font-size: 16px;
+ }
+ .items li a:hover{
+    border-bottom: 2px solid rgb(195, 59, 59);
+ }
